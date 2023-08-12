@@ -58,8 +58,8 @@
         <p class="font-serif text-gray-400 text-center">A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
         <!--Button Container-->
         <div class="flex space-x-3">
-          <button class="bg-bkblue font-serif text-xs text-white font-semibold px-4 py-4 rounded-md hover:bg-white hover:text-bkblue hover:border-2 hover:border-bkblue capitalize">Get it on the chrome</button>
-          <button class="bg-gray-300 font-serif text-xs text-black font-semibold px-4 py-4 rounded-md hover:bg-white hover:text-zinc-600 hover:border-2 capitalize">Get it on the firefox</button>
+          <button class="bg-bkblue border-2 border-bkblue duration-200 font-serif text-xs text-white font-semibold px-4 py-4 rounded-md hover:bg-white hover:text-bkblue capitalize">Get it on the chrome</button>
+          <button class="bg-gray-300 border-2 border-gray-300 duration-200 font-serif text-xs text-black font-semibold px-4 py-4 rounded-md hover:bg-white hover:text-zinc-600 capitalize">Get it on the firefox</button>
         </div>
 
       </div>
@@ -103,25 +103,25 @@
         <div id="horizontal-alignment-1" role="tabpanel" aria-labelledby="horizontal-alignment-item-1">
           <img src="./assets/images/illustration-features-tab-1.svg" alt="illustration-features-tab-1" srcset=""/>
           <div class="flex flex-col items-center mt-20 space-y-6">
-            <h3 class="font-sans text-3xl font-bold text-center">Bookmark in one click</h3>
+            <h3 class="font-serif text-2xl font-semibold text-center">Bookmark in one click</h3>
             <p class="font-serif text-sm text-zinc-400 text-center">Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
-            <a href="#"><button class="bg-bkblue font-serif text-sm text-white font-semibold px-6 py-3 rounded-md hover:bg-white hover:text-bkblue hover:border-2 hover:border-bkblue capitalize">More Info</button></a>
+            <a href="#"><button class="bg-bkblue border-2 border-bkblue duration-200 font-serif text-sm text-white font-semibold px-6 py-3 rounded-md hover:bg-white hover:text-bkblue capitalize">More Info</button></a>
           </div>
         </div>
         <div id="horizontal-alignment-2" class="hidden" role="tabpanel" aria-labelledby="horizontal-alignment-item-2">
           <img src="./assets/images/illustration-features-tab-2.svg" alt="illustration-features-tab-2" srcset=""/>
           <div class="flex flex-col items-center mt-20 space-y-6">
-            <h3 class="font-sans text-3xl font-bold text-center">Intelligent search</h3>
+            <h3 class="font-serif text-2xl font-semibold text-center">Intelligent search</h3>
             <p class="font-serif text-sm text-zinc-400 text-center">Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks.</p>
-            <a href="#"><button class="bg-bkblue font-serif text-sm text-white font-semibold px-6 py-3 rounded-md hover:bg-white hover:text-bkblue hover:border-2 hover:border-bkblue capitalize">More Info</button></a>
+            <a href="#"><button class="bg-bkblue border-2 border-bkblue duration-200 font-serif text-sm text-white font-semibold px-6 py-3 rounded-md hover:bg-white hover:text-bkblue capitalize">More Info</button></a>
           </div>
         </div>
         <div id="horizontal-alignment-3" class="hidden" role="tabpanel" aria-labelledby="horizontal-alignment-item-3">
           <img src="./assets/images/illustration-features-tab-3.svg" alt="illustration-features-tab-3" srcset=""/>
           <div class="flex flex-col items-center mt-20 space-y-6">
-            <h3 class="font-sans text-3xl font-bold text-center">Share your bookmarks</h3>
+            <h3 class="ffont-serif text-2xl font-semibold text-center">Share your bookmarks</h3>
             <p class="font-serif text-sm text-zinc-400 text-center">Easily share your bookmarks and collections with others. Create a shareable a link that you can send at the click of a button.</p>
-            <a href=""><button class="bg-bkblue font-serif text-sm text-white font-semibold px-6 py-3 rounded-md hover:bg-white hover:text-bkblue hover:border-2 hover:border-bkblue capitalize">More Info</button></a>
+            <a href=""><button class="bg-bkblue border-2 border-bkblue duration-200 font-serif text-sm text-white font-semibold px-6 py-3 rounded-md hover:bg-white hover:text-bkblue capitalize">More Info</button></a>
           </div>
         </div>
       </div>
@@ -137,39 +137,39 @@
   <!--Download extension section start-->
   <section id="extension">
     <!--Extension section parent container start-->
-    <div class="py-10 px-5">
+    <div class="py-10 px-5 flex flex-col items-center space-y-24">
       <!--Title section vontainer-->
-      <div>
-        <h2>Download the extension</h2>
-        <p>We've got more browsers in the pipeline. Please do let us know if you've got a favourite you'd like us to prioritize.</p>
+      <div class="flex flex-col items-center space-y-4 max-w-2xl">
+        <h2 class="font-serif text-2xl font-semibold text-center">Download the extension</h2>
+        <p class="font-serif text-sm text-center text-zinc-400">We've got more browsers in the pipeline. Please do let us know if you've got a favourite you'd like us to prioritize.</p>
       </div>
       <!--Extension box container-->
-      <div>
+      <div class="w-full flex flex-col space-y-6">
         <!--Item box-1-->
-        <div>
-          <img src="./assets/images/logo-chrome.svg" alt="logo-chrome" srcset=""/>
-          <h3>Add to Chrome</h3>
-          <p>Minimum Version 62</p>
-          <div>
-            <button>Add & Install Extension</button>
+        <div class="shadow-md w-full px-4 py-6 flex flex-col items-center space-y-3 rounded-md">
+          <img class="" src="./assets/images/logo-chrome.svg" alt="logo-chrome" srcset=""/>
+          <h3 class="font-serif font-bold">Add to Chrome</h3>
+          <p class="font-serif text-zinc-400 text-xs">Minimum Version 62</p>
+          <div class="w-full bg-dot bg-repeat-x px-6 pt-6">
+            <a href="#"><button class="bg-bkblue border-2 border-bkblue font-serif text-xs duration-200 text-white font-semibold w-full py-2 rounded-md hover:bg-white hover:text-bkblue capitalize">Add & Install Extension</button></a>
           </div>
         </div>
         <!--Item box-2-->
-        <div>
-          <img src="./assets/images/logo-firefox.svg" alt="logo-firefox" srcset=""/>
-          <h3>Add to Firefox</h3>
-          <p>Minimum Version 55</p>
-          <div>
-            <button>Add & Install Extension</button>
+        <div class="shadow-md w-full px-4 py-6 flex flex-col items-center space-y-3 rounded-md">
+          <img class="" src="./assets/images/logo-firefox.svg" alt="logo-firefox" srcset=""/>
+          <h3 class="font-serif font-bold">Add to Firefox</h3>
+          <p class="font-serif text-zinc-400 text-xs">Minimum Version 55</p>
+          <div class="w-full bg-dot bg-repeat-x px-6 pt-6">
+            <a href="#"><button class="bg-bkblue border-2 border-bkblue font-serif text-xs duration-200 text-white font-semibold w-full py-2 rounded-md hover:bg-white hover:text-bkblue capitalize">Add & Install Extension</button></a>
           </div>
         </div>
         <!--Item box-3-->
-        <div>
-          <img src="./assets/images/logo-opera.svg" alt="logo-opera" srcset=""/>
-          <h3>Add to Opera</h3>
-          <p>Minimum Version 46</p>
-          <div>
-            <button>Add & Install Extension</button>
+        <div class="shadow-md w-full px-4 py-6 flex flex-col items-center space-y-3 rounded-md">
+          <img class="" src="./assets/images/logo-opera.svg" alt="logo-opera" srcset=""/>
+          <h3 class="font-serif font-bold">Add to Opera</h3>
+          <p class="font-serif text-zinc-400 text-xs">Minimum Version 48</p>
+          <div class="w-full bg-dot bg-repeat-x px-6 pt-6">
+            <a href="#"><button class="bg-bkblue border-2 border-bkblue font-serif text-xs duration-200 text-white font-semibold w-full py-2 rounded-md hover:bg-white hover:text-bkblue capitalize">Add & Install Extension</button></a>
           </div>
         </div>
 
@@ -183,19 +183,19 @@
   <!--faq section start here-->
   <section id="faq">
     <!--faq parent container-->
-    <div>
+    <div class="py-10 px-5 flex flex-col space-y-6">
       <!--faq heading container-->
-      <div>
-        <h2>Frequently Asked Questions</h2>
-        <p>Here are some of our FAQs. If you have any other questions you'd like answered please feel free to email us.</p>
+      <div class="flex flex-col space-y-4 max-w-2xl">
+        <h2 class="font-serif text-2xl font-semibold text-center">Frequently Asked Questions</h2>
+        <p class="font-serif text-xs text-center">Here are some of our FAQs. If you have any other questions you'd like answered please feel free to email us.</p>
       </div>
       <!--faq heading container end-->
       
       <!--faq container start here-->
       <div id="accordion-flush" data-accordion="collapse" data-active-classes="bg-white dark:bg-gray-900 text-gray-900 dark:text-white" data-inactive-classes="text-gray-500 dark:text-gray-400">
         <h2 id="accordion-flush-heading-1">
-          <button type="button" class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400" data-accordion-target="#accordion-flush-body-1" aria-expanded="true" aria-controls="accordion-flush-body-1">
-            <span>What is Flowbite?</span>
+          <button type="button" class="font-serif text-sm font-normal flex items-center justify-between w-full py-5 text-left text-zinc-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400 hover:text-bkred" data-accordion-target="#accordion-flush-body-1" aria-expanded="true" aria-controls="accordion-flush-body-1">
+            <span>What is Bookmark?</span>
             <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
               <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
             </svg>
@@ -203,13 +203,12 @@
         </h2>
         <div id="accordion-flush-body-1" class="hidden" aria-labelledby="accordion-flush-heading-1">
           <div class="py-5 border-b border-gray-200 dark:border-gray-700">
-            <p class="mb-2 text-gray-500 dark:text-gray-400">Flowbite is an open-source library of interactive components built on top of Tailwind CSS including buttons, dropdowns, modals, navbars, and more.</p>
-            <p class="text-gray-500 dark:text-gray-400">Check out this guide to learn how to <a href="/docs/getting-started/introduction/" class="text-blue-600 dark:text-blue-500 hover:underline">get started</a> and start developing websites even faster with components on top of Tailwind CSS.</p>
+            <p class=" font-serif text-sm mb-2 text-gray-400 dark:text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, repellat amet doloribus consequuntur eos similique provident tempora voluptates iure quia fuga dicta voluptatibus culpa mollitia recusandae delectus id suscipit labore?</p>
           </div>
         </div>
         <h2 id="accordion-flush-heading-2">
-          <button type="button" class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400" data-accordion-target="#accordion-flush-body-2" aria-expanded="false" aria-controls="accordion-flush-body-2">
-            <span>Is there a Figma file available?</span>
+          <button type="button" class="font-serif text-sm font-normal flex items-center justify-between w-full py-5 text-left text-zinc-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400 hover:text-bkred" data-accordion-target="#accordion-flush-body-2" aria-expanded="false" aria-controls="accordion-flush-body-2">
+            <span>How can I request a new browser?</span>
             <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
               <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
             </svg>
@@ -217,13 +216,13 @@
         </h2>
         <div id="accordion-flush-body-2" class="hidden" aria-labelledby="accordion-flush-heading-2">
           <div class="py-5 border-b border-gray-200 dark:border-gray-700">
-            <p class="mb-2 text-gray-500 dark:text-gray-400">Flowbite is first conceptualized and designed using the Figma software so everything you see in the library has a design equivalent in our Figma file.</p>
-            <p class="text-gray-500 dark:text-gray-400">Check out the <a href="https://flowbite.com/figma/" class="text-blue-600 dark:text-blue-500 hover:underline">Figma design system</a> based on the utility classes from Tailwind CSS and components from Flowbite.</p>
+            <p class=" font-serif text-sm mb-2 text-gray-400 dark:text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, repellat amet doloribus consequuntur eos similique provident tempora voluptates iure quia fuga dicta voluptatibus culpa mollitia recusandae delectus id suscipit labore?</p>
+            
           </div>
         </div>
         <h2 id="accordion-flush-heading-3">
-          <button type="button" class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400" data-accordion-target="#accordion-flush-body-3" aria-expanded="false" aria-controls="accordion-flush-body-3">
-            <span>What are the differences between Flowbite and Tailwind UI?</span>
+          <button type="button" class="font-serif text-sm font-normal flex items-center justify-between w-full py-5 text-left text-zinc-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400 hover:text-bkred" data-accordion-target="#accordion-flush-body-3" aria-expanded="false" aria-controls="accordion-flush-body-3">
+            <span>Is there a mobile app?</span>
             <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
               <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
             </svg>
@@ -231,13 +230,7 @@
         </h2>
         <div id="accordion-flush-body-3" class="hidden" aria-labelledby="accordion-flush-heading-3">
           <div class="py-5 border-b border-gray-200 dark:border-gray-700">
-            <p class="mb-2 text-gray-500 dark:text-gray-400">The main difference is that the core components from Flowbite are open source under the MIT license, whereas Tailwind UI is a paid product. Another difference is that Flowbite relies on smaller and standalone components, whereas Tailwind UI offers sections of pages.</p>
-            <p class="mb-2 text-gray-500 dark:text-gray-400">However, we actually recommend using both Flowbite, Flowbite Pro, and even Tailwind UI as there is no technical reason stopping you from using the best of two worlds.</p>
-            <p class="mb-2 text-gray-500 dark:text-gray-400">Learn more about these technologies:</p>
-            <ul class="pl-5 text-gray-500 list-disc dark:text-gray-400">
-              <li><a href="https://flowbite.com/pro/" class="text-blue-600 dark:text-blue-500 hover:underline">Flowbite Pro</a></li>
-              <li><a href="https://tailwindui.com/" rel="nofollow" class="text-blue-600 dark:text-blue-500 hover:underline">Tailwind UI</a></li>
-            </ul>
+            <p class="font-serif text-sm mb-2 text-gray-400 dark:text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, repellat amet doloribus consequuntur eos similique provident tempora voluptates iure quia fuga dicta voluptatibus culpa mollitia recusandae delectus id suscipit labore?</p>
           </div>
         </div>
       </div>
@@ -248,17 +241,17 @@
   <!--faq section end here-->
 
   <!--call to action start here-->
-  <section id="cta">
+  <section id="cta" class="bg-bkblue">
 
     <!--cta parent container start-->
-    <div>
-      <h6>35,000+ ALREADY JOINED</h6>
-      <h2>Stay up-to-date with what we're doing</h2>
+    <div class="py-20 px-5 flex flex-col items-center space-y-3">
+      <h6 class="font-serif uppercase text-base text-white">35,000+ ALREADY JOINED</h6>
+      <h2 class="font-serif text-xl text-center font-bold text-white">Stay up-to-date with what we're doing</h2>
 
       <form>
-        <div>
-          <input type="text" name="email" id="email" placeholder="Enter your email address"/>
-          <input type="button" value="Contact Us"/>
+        <div class="flex flex-col space-y-3">
+          <input class="rounded-xl text-sm px-6 text-zinc-500" type="text" name="email" id="email" placeholder="Enter your email address"/>
+          <input class="bg-bkred w-1/2 mx-auto py-2 rounded-md font-serif font-semibold text-sm text-white capitalize" type="button" value="Contact Us"/>
         </div>
       </form>
 
@@ -269,18 +262,18 @@
   <!--call to action end here-->
 
   <!--footer section start-->
-  <footer>
+  <footer class="bg-bkdarkblue py-16 px-5">
     <!--footer section container start-->
-    <div>
+    <div class="flex flex-col items-center space-y-10">
       <!--logo and nav-->
-      <div>
-        <img src="./assets/images/logo-bookmark-footer.svg" alt="" srcset=""/>
-        <a href="#">Fatures</a>
-        <a href="#">Download</a>
-        <a href="#">Faq</a>
+      <div class="flex flex-col items-center space-y-3">
+        <img class="mb-4" src="./assets/images/logo-bookmark-footer.svg" alt="" srcset=""/>
+        <a href="#" class="text-zinc-400 font-serif uppercase text-sm hover:text-bkred">Features</a>
+        <a href="#" class="text-zinc-400 font-serif uppercase text-sm hover:text-bkred">Download</a>
+        <a href="#" class="text-zinc-400 font-serif uppercase text-sm hover:text-bkred">Faq</a>
       </div>
       <!--social links-->
-      <div>
+      <div class="flex space-x-6">
         <a href="#"><img src="./assets/images/icon-facebook.svg" alt="icon-facebook" srcset=""/></a>
         <a href="#"><img src="./assets/images/icon-twitter.svg" alt="icon-twitter" srcset=""/></a>
       </div>
