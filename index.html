@@ -15,11 +15,11 @@
 <body>
    
   <!--Navigation Start Here-->
-  <nav class="bg-white border-gray-200 dark:bg-gray-900">
+  <nav class="bg-white border-gray-200 dark:bg-gray-900 relative">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-      <a href="https://flowbite.com/" class="flex items-center">
-          <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mr-3" alt="Flowbite Logo" />
-          <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
+      <a href="#" class="flex items-center">
+          <img src="./assets/images/logo-bookmark.svg" class="h-8 mr-3" alt="Flowbite Logo" />
+          
       </a>
       <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
           <span class="sr-only">Open main menu</span>
@@ -27,24 +27,21 @@
               <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
           </svg>
       </button>
-      <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-        <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+      <div class=" absolute top-12 right-2 left-0 hidden w-full md:block md:w-auto " id="navbar-default">
+        <ul class=" font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
           <li>
-            <a href="#" class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Home</a>
+            <a href="#feature" class=" font-serif font-normal block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent" aria-current="page">Home</a>
           </li>
           <li>
-            <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+            <a href="#download" class="font-serif font-normal block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
           </li>
           <li>
-            <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
+            <a href="#faq" class=" font-serif font-normal block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
           </li>
           <li>
-            <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Pricing</a>
+            <a href="#plugin" class=" font-serif font-normal block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Pricing</a>
           </li>
-          <li>
-            <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
-          </li>
-          <button>Login</button>
+          <button class="font-serif text-white bg-bkred w-auto py-3 mt-2 mx-2">Login</button>
         </ul>
       </div>
     </div>
@@ -52,17 +49,17 @@
   <!--Navigation End Here-->
 
   <!--Hero Section start here-->
-  <section id="hero">
-    <div>
+  <section id="hero" class="z-0">
+    <div class="flex flex-col-reverse py-10 px-5">
       <!--content-->
-      <div>
+      <div class="flex flex-col gap-8 items-center max-w-xl">
 
-        <h1>A Simple Bookmark Manager</h1>
-        <p>A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
+        <h1 class="font-serif text-2xl font-bold capitalize text-center">A Simple Bookmark Manager</h1>
+        <p class="font-serif text-gray-400 text-center">A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
         <!--Button Container-->
-        <div>
-          <button>Get it on the chrome</button>
-          <button>Get it on the firefox</button>
+        <div class="flex space-x-3">
+          <button class="bg-bkblue font-serif text-xs text-white font-semibold px-4 py-4 rounded-md hover:bg-white hover:text-bkblue hover:border-2 hover:border-bkblue capitalize">Get it on the chrome</button>
+          <button class="bg-gray-300 font-serif text-xs text-black font-semibold px-4 py-4 rounded-md hover:bg-white hover:text-zinc-600 hover:border-2 capitalize">Get it on the firefox</button>
         </div>
 
       </div>
@@ -79,44 +76,53 @@
   <!--Feature section start here-->
   <section id="feature">
     <!--feature section parent container-->
-    <div>
+    <div class="py-10 px-5 flex flex-col items-center gap-y-12">
       <!--Heading Container start-->
-      <div>
-        <h2>Features</h2>
-        <p>Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
+      <div class="flex flex-col gap-6 max-w-xl">
+        <h2 class="font-serif text-3xl font-semibold text-center">Features</h2>
+        <p class="font-serif text-base text-zinc-400 text-center">Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
       </div>
       <!--Heading Container end-->
 
       <!--Tabs starts here-->
       <div class="border-b border-gray-200 dark:border-gray-700">
-        <nav class="-mb-0.5 flex justify-center space-x-6" aria-label="Tabs" role="tablist">
-          <button type="button" class="hs-tab-active:font-semibold hs-tab-active:border-blue-600 hs-tab-active:text-blue-600 py-4 px-1 inline-flex items-center gap-2 border-b-[3px] border-transparent text-sm whitespace-nowrap text-gray-500 hover:text-blue-600 active" id="horizontal-alignment-item-1" data-hs-tab="#horizontal-alignment-1" aria-controls="horizontal-alignment-1" role="tab">
-            Tab 1
+        <nav class="-mb-0.5 flex flex-col items-center" aria-label="Tabs" role="tablist">
+          <button type="button" class="hs-tab-active:font-normal hs-tab-active:border-bkred font-serif hs-tab-active:text-zinc-600 py-4 px-1 inline-flex items-center gap-2 border-b-[3px] border-transparent text-sm whitespace-nowrap hover:text-bkred active" id="horizontal-alignment-item-1" data-hs-tab="#horizontal-alignment-1" aria-controls="horizontal-alignment-1" role="tab">
+            Simple Bookmarking
           </button>
-          <button type="button" class="hs-tab-active:font-semibold hs-tab-active:border-blue-600 hs-tab-active:text-blue-600 py-4 px-1 inline-flex items-center gap-2 border-b-[3px] border-transparent text-sm whitespace-nowrap text-gray-500 hover:text-blue-600" id="horizontal-alignment-item-2" data-hs-tab="#horizontal-alignment-2" aria-controls="horizontal-alignment-2" role="tab">
-            Tab 2
+          <button type="button" class="hs-tab-active:font-normal hs-tab-active:border-bkred font-serif hs-tab-active:text-zinc-600 py-4 px-1 inline-flex items-center gap-2 border-b-[3px] border-transparent text-sm whitespace-nowrap hover:text-bkred" id="horizontal-alignment-item-2" data-hs-tab="#horizontal-alignment-2" aria-controls="horizontal-alignment-2" role="tab">
+            Speedy Searching
           </button>
-          <button type="button" class="hs-tab-active:font-semibold hs-tab-active:border-blue-600 hs-tab-active:text-blue-600 py-4 px-1 inline-flex items-center gap-2 border-b-[3px] border-transparent text-sm whitespace-nowrap text-gray-500 hover:text-blue-600" id="horizontal-alignment-item-3" data-hs-tab="#horizontal-alignment-3" aria-controls="horizontal-alignment-3" role="tab">
-            Tab 3
+          <button type="button" class="hs-tab-active:font-semibold hs-tab-active:border-bkred hs-tab-active:text-zinc-600 py-4 px-1 inline-flex items-center gap-2 border-b-[3px] border-transparent text-sm whitespace-nowrap hover:text-bkred" id="horizontal-alignment-item-3" data-hs-tab="#horizontal-alignment-3" aria-controls="horizontal-alignment-3" role="tab">
+            Easy Sharing
           </button>
         </nav>
       </div>
       
       <div class="mt-3">
         <div id="horizontal-alignment-1" role="tabpanel" aria-labelledby="horizontal-alignment-item-1">
-          <p class="text-gray-500 dark:text-gray-400">
-            This is the <em class="font-semibold text-gray-800 dark:text-gray-200">first</em> item's tab body.
-          </p>
+          <img src="./assets/images/illustration-features-tab-1.svg" alt="illustration-features-tab-1" srcset=""/>
+          <div class="flex flex-col items-center mt-20 space-y-6">
+            <h3 class="font-sans text-3xl font-bold text-center">Bookmark in one click</h3>
+            <p class="font-serif text-sm text-zinc-400 text-center">Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
+            <a href="#"><button class="bg-bkblue font-serif text-sm text-white font-semibold px-6 py-3 rounded-md hover:bg-white hover:text-bkblue hover:border-2 hover:border-bkblue capitalize">More Info</button></a>
+          </div>
         </div>
         <div id="horizontal-alignment-2" class="hidden" role="tabpanel" aria-labelledby="horizontal-alignment-item-2">
-          <p class="text-gray-500 dark:text-gray-400">
-            This is the <em class="font-semibold text-gray-800 dark:text-gray-200">second</em> item's tab body.
-          </p>
+          <img src="./assets/images/illustration-features-tab-2.svg" alt="illustration-features-tab-2" srcset=""/>
+          <div class="flex flex-col items-center mt-20 space-y-6">
+            <h3 class="font-sans text-3xl font-bold text-center">Intelligent search</h3>
+            <p class="font-serif text-sm text-zinc-400 text-center">Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks.</p>
+            <a href="#"><button class="bg-bkblue font-serif text-sm text-white font-semibold px-6 py-3 rounded-md hover:bg-white hover:text-bkblue hover:border-2 hover:border-bkblue capitalize">More Info</button></a>
+          </div>
         </div>
         <div id="horizontal-alignment-3" class="hidden" role="tabpanel" aria-labelledby="horizontal-alignment-item-3">
-          <p class="text-gray-500 dark:text-gray-400">
-            This is the <em class="font-semibold text-gray-800 dark:text-gray-200">third</em> item's tab body.
-          </p>
+          <img src="./assets/images/illustration-features-tab-3.svg" alt="illustration-features-tab-3" srcset=""/>
+          <div class="flex flex-col items-center mt-20 space-y-6">
+            <h3 class="font-sans text-3xl font-bold text-center">Share your bookmarks</h3>
+            <p class="font-serif text-sm text-zinc-400 text-center">Easily share your bookmarks and collections with others. Create a shareable a link that you can send at the click of a button.</p>
+            <a href=""><button class="bg-bkblue font-serif text-sm text-white font-semibold px-6 py-3 rounded-md hover:bg-white hover:text-bkblue hover:border-2 hover:border-bkblue capitalize">More Info</button></a>
+          </div>
         </div>
       </div>
 
@@ -131,7 +137,7 @@
   <!--Download extension section start-->
   <section id="extension">
     <!--Extension section parent container start-->
-    <div>
+    <div class="py-10 px-5">
       <!--Title section vontainer-->
       <div>
         <h2>Download the extension</h2>
