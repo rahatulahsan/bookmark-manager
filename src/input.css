@@ -6,3 +6,26 @@
 .bg-dot{
     background-image: url('../assets/images/bg-dots.svg');
 }
+
+@layer utilities{
+
+    @media (min-width: 1024px){
+        .hero-bg{
+            width: 2000px;
+            height:300px;
+            border-top-left-radius: 9999px;
+            border-bottom-left-radius: 9999px;
+            background-color: #5368df;
+            position: absolute;
+            left: 70%;
+            top: 100px;
+            z-index: -1;
+        }
+    }
+    @media (min-width: 1280px){
+        .hero-bg{
+            top: 200px;
+        }
+    }
+    
+}
