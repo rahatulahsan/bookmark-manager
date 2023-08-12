@@ -15,6 +15,7 @@ module.exports = {
 module.exports = {
   darkMode: 'class',
   content: [
+    "./node_modules/flowbite/**/*.js",
     'node_modules/preline/dist/*.js',
     './pages/**/*.{html,js}',
   './components/**/*.{html,js}',,
@@ -22,10 +23,19 @@ module.exports = {
   "'*.{html,js}'"],
   theme: {
     extend: {
+      colors:{
+        bkblue: '#5368df',
+        bkdarkblue : '#252b46',
+        bkred : '#fa5757'
+      },
+      fontFamily :{
+        serif : ['Rubik', 'sans-serif']
+      }
     },
   },
   plugins: [
     require('preline/plugin'),
+    require('flowbite/plugin')
   ],
 }
 
