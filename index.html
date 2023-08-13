@@ -261,14 +261,14 @@
   <section id="cta" class="bg-bkblue">
 
     <!--cta parent container start-->
-    <div class="py-20 px-5 flex flex-col items-center space-y-3">
+    <div class="py-20 px-5 flex flex-col items-center space-y-3 max-w-lg mx-auto">
       <h6 class="font-serif uppercase text-base text-white">35,000+ ALREADY JOINED</h6>
-      <h2 class="font-serif text-xl text-center font-bold text-white">Stay up-to-date with what we're doing</h2>
+      <h2 class="font-serif text-xl text-center font-bold text-white md:text-3xl">Stay up-to-date with what we're doing</h2>
 
       <form>
-        <div class="flex flex-col space-y-3">
+        <div class="flex flex-col justify-between items-center space-y-3 md:flex-row md:mx-0 md:space-x-2 md:space-y-0">
           <input class="rounded-xl text-sm px-6 text-zinc-500" type="text" name="email" id="email" placeholder="Enter your email address"/>
-          <input class="bg-bkred w-1/2 mx-auto py-2 rounded-md font-serif font-semibold text-sm text-white capitalize" type="button" value="Contact Us"/>
+          <input class="bg-bkred w-1/2 py-2 mx-auto duration-200 rounded-md font-serif font-semibold text-sm text-white capitalize md:px-4 cursor-pointer hover:opacity-90" type="button" value="Contact Us"/>
         </div>
       </form>
 
@@ -281,14 +281,15 @@
   <!--footer section start-->
   <footer class="bg-bkdarkblue py-16 px-5">
     <!--footer section container start-->
-    <div class="flex flex-col items-center space-y-10">
-      <!--logo and nav-->
-      <div class="flex flex-col items-center space-y-3">
-        <img class="mb-4" src="./assets/images/logo-bookmark-footer.svg" alt="" srcset=""/>
-        <a href="#" class="text-zinc-400 font-serif uppercase text-sm hover:text-bkred">Features</a>
+    <div class="flex flex-col items-center space-y-16 md:flex-row justify-around md:px-14 md:space-y-0 mx-auto">
+
+      <div class="flex flex-col items-center justify-between space-y-8 text-lg font-light md:flex-row md:space-y-0 md:space-x-14">
+        <img class="mb-1" src="./assets/images/logo-bookmark-footer.svg" alt="" srcset=""/>
+        <a href="#" class="text-zinc-400 font-serif mt-0 uppercase text-sm hover:text-bkred">Features</a>
         <a href="#" class="text-zinc-400 font-serif uppercase text-sm hover:text-bkred">Download</a>
         <a href="#" class="text-zinc-400 font-serif uppercase text-sm hover:text-bkred">Faq</a>
       </div>
+      
       <!--social links-->
       <div class="flex space-x-6">
         <a href="#"><img src="./assets/images/icon-facebook.svg" alt="icon-facebook" srcset=""/></a>
